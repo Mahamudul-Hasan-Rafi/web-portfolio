@@ -1,24 +1,107 @@
-.name-highlight{
+.orange-highlight{
     color: orange;
 }
 
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 
 h1{
     font-size: 50px;
 }
 
+h2{
+    font-size: 40px;
+}
+
+p{
+    color: dimgray;
+}
+
 .block1{
-    width: 40%;
-    margin-left: 5%;
+    width: 30%;
+    margin-left: 10%;
     padding-left: 2%;
     float: left;
-    margin-top: 3%;
+    margin-top: 1%;
 }
 
 .block1 img{
     width: 100%;
     height: 100%;
+}
+
+.top-part{
+    height: 500px;
+    background-image: url("image/top-banner.png");
+    background-repeat: no-repeat;
+    padding-bottom: 5%;
+}
+
+.link_button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: white;
+    font-weight: 600;
+}
+
+.link_block{
+    margin-top: 8%;
+}
+
+.block2{
+    width: 30%;
+    margin-left: 10%;
+    padding: 2%;
+    float: left;
+}
+
+.block2 img{
+    width: 100%;;
+}
+
+.middle-part{
+    margin-top: 4%;
+    height: 500px;
+    background-image: url("image/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-bottom: 5%;
+}
+
+.last-part{
+    margin-top: 4%;
+    padding-bottom: 35%;
+    background-image: url("image/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.last-part h3{
+    font-size: 30px;
+}
+
+.last-part .block2{
+    box-shadow: 10px 10px 50px gray;
+    border-radius: 5px;
+    height: 300px;
+}
+
+#fullstack-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+
+footer{
+    text-align: center;
 }
